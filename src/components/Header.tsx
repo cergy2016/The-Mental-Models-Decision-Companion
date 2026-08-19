@@ -1,5 +1,5 @@
 import React from 'react';
-import { Compass, Sparkles, Code, Volume2, VolumeX, BookOpen, Disc3 } from 'lucide-react';
+import { Compass, Sparkles, Code, Volume2, VolumeX, BookOpen, Disc3, ArrowLeft } from 'lucide-react';
 
 interface HeaderProps {
   activeTab: 'wheel' | 'cards' | 'library';
@@ -36,7 +36,7 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Top Controls & Navigation */}
-        <div className="flex items-center flex-wrap gap-2 self-start md:self-center">
+        <div className="flex items-center flex-wrap gap-2 self-start md:self-center"><a id="btn-back-to-chungbooks" href="https://chungbooks.fr/interactive-guides.html" className="sans inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold uppercase tracking-wider text-[#2D2C2A] bg-white border border-[#EAE7E0] hover:bg-[#FAF8F2] transition-colors shadow-xs" title="Back to Chung Books"><ArrowLeft className="w-3.5 h-3.5 text-[#C16657]" /><span>Chung Books</span></a>
           {/* Sound Toggle */}
           <button
             id="sound-toggle-btn"
