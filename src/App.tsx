@@ -318,7 +318,7 @@ export default function App() {
         {/* Footer */}
         <footer className="mt-14 pt-6 border-t border-[#EAE7E0] text-center text-xs text-[#718894]">
           <p className="sans font-bold uppercase tracking-widest text-[#2D2C2A] text-[11px]">
-            The Mental Models Decision Companion &middot; chungbooks.fr
+            The Mental Models Decision Companion &middot; <a href="https://chungbooks.fr" className="underline underline-offset-2 hover:text-[#C16657] transition-colors">chungbooks.fr</a>
           </p>
           <p className="sans mt-1 text-[10px] uppercase tracking-wider text-[#718894]">
             Curated from classic treatises in cognitive science, philosophy, and strategic decision analysis.
